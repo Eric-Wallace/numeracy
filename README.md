@@ -22,7 +22,9 @@ The three tasks in the paper (list maximum, number decoding, and addition) are s
 
 ## Example Runs
 
-Examples here.
+See the scripts inside `run_scripts/*` to recreate the experiments in Table 4 of the paper.
+
+Note: I have heavily refactored the paper's original code and simplified things. This, alongside updates to the libraries, means the results aren't exactly the same as those reported in the paper. However, although the exact numbers differ, the trends closely follow those in the paper. Also, note that there is relatively high variance in the individual runs. In future research papers, I recommend that you report the mean/median result over multiple runs. Moreover, to be fair to the different embedding methods, I recommend lighlty tuning the hyperparameters of the probing classifier.
 
 ## References
 
@@ -37,7 +39,7 @@ Please consider citing our paper if you found this code or our work beneficial t
 
 ## Contact
 
-For issues with code or suggested improvements, feel free to open a pull request.
+For issues with code or suggested improvements, feel free to open an issue or a pull request.
 
 To contact the authors, reach out to Eric Wallace (ericwallace@berkeley.edu) and Yizhong Wang (yizhongw@cs.washington.edu
 ).
